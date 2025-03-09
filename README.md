@@ -1,1 +1,1 @@
-# Basic-Game-using-HTML-CSS-JS
+# Basic-Dice-Roll Game-using-HTML-CSS-JS
