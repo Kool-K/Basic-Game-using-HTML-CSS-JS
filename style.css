@@ -1,0 +1,61 @@
+/*// properties about the classes  */
+/* variables as root 
+we can give properties to tags and classes in css */
+:root {
+    --clr-neon: hsl(0, 98%, 35%) ;
+    --clr-bg: hsl(235, 87%, 15%) ;
+
+}
+/* properties for h1 tag which was merely defined */
+h1{
+    text-align:center;
+    margin:auto;
+    font-size: 5rem; 
+    /* rem is the unit of font size */
+    color:rgb(208, 214, 218);
+}
+/* giving properties to class dice area */
+.dice-area{
+    /* inline block will helpus display them in line next to each other instead of up and down */
+    margin:20px 210px;
+    text-align: center;
+    display:inline-block;
+}
+p{
+    font-size:2.5rem;
+    color:rgb(204,214,218);
+}
+img{
+    width:200px;
+}
+body{
+    background:linear-gradient(to right,#3f5efb,#fc466b);
+    color:var(--clr-neon);
+}
+.neon-button{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--clr-neon);
+    border: var(--clr-neon) 0.125em solid;
+    padding: 0.25em 1em;
+    border-radius: 0.25em;
+    background: none;
+    text-shadow: 0 0 0.125em;
+}
+.refresh{
+    position: absolute;
+    top: 90%;
+    left: 42%;
+    background-color: #4594e3;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}

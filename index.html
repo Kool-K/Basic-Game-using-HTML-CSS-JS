@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <!--  instead of linking 2 files we can use all 3 in one too but it decreases code readability-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roll The Dice!</title>
+    <!-- linking the style sheet here -->
+     <!-- rel means relationship, it tells us what is the file that we are linking stylesheet, css stylesheet -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- definition of wrapper class in css -->
+        <h1></h1>
+        <!-- h1 should have the winner -->
+    </div>
+    <div class="dice-area">
+        <!-- definition of dice area class in css -->
+        <p>User 1</p>
+        <img>
+
+        <!-- img and h1 is blank as js will provide this at runtime, they will be modified dynamically so we have left them empty, they are non static or dynamic components -->
+    </div>
+
+    <div class="dice-area">
+        <!-- definition of dice area class in css -->
+        <p>User 2</p>
+        <img>
+    </div>
+<a href="#" class="neon-button refresh" onclick="location.reload();">Roll the Dice</a>
+<!-- the hash is a dummy hash we don't want to go to any page so we are just saying just reload this page only -->
+<script src="script.js"></script>
+</body>
+</html>
